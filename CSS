@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts and color</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        p {
+            /* font-family:Georgia, 'Times New Roman', Times, serif; */
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 20px;
+            line-height: 1em;
+        }
+        span {
+
+            font-weight: bold;
+            font-style: normal;
+        }
+        #firstpara {
+            color: lightcoral
+                /*color by name*/
+        }
+        #secondpara {
+            color: rgb(75, 194, 20);
+        }
+        #thirdpara {
+            color: #f0540c;
+            background-color: rgb(228, 136, 17);
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CSS FONTS</h3>
+    <P>lets play with <span>fonts</span>.It is very exicting</P>
+
+    <h2>this is my first box</h2>
+    <p id="firstpara">this is a paragraph </p>
+    <h2>this is my second box</h2>
+    <p id="secondpara">this is a paragraph </p>
+    <h2>this is my third box</h2>
+    <p id="thirdpara">this is a paragraph </p>
+</body>
+
+</html>
